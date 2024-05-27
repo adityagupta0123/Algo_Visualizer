@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8068db0e.css",
+    "main.js": "/static/js/main.f200a0a0.js",
+    "static/js/206.aa74d0a6.chunk.js": "/static/js/206.aa74d0a6.chunk.js",
+    "static/media/DijkstraVideo-No-Edit.mp4": "/static/media/DijkstraVideo-No-Edit.3cd01c0044dbb70c73fd.mp4",
+    "static/media/Dijkstra.png": "/static/media/Dijkstra.3ee7ba7cf371e18e1b7d.png",
+    "static/media/BubbleSort.png": "/static/media/BubbleSort.a919b50ff57a8a69b7c0.png",
+    "static/media/QuickSort.png": "/static/media/QuickSort.167d24dc2f6f09070c8c.png",
+    "static/media/LinkedList.png": "/static/media/LinkedList.956df5ae7368989bbda0.png",
+    "static/media/Dfs.png": "/static/media/Dfs.7d02e8c369004f46abab.png",
+    "static/media/arrowImg.png": "/static/media/arrowImg.e58577217f6ba0c8a9d8.png",
+    "static/media/logo.svg": "/static/media/logo.13369d63e8ca4e1f4488e434da505d12.svg",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.8068db0e.css",
+    "static/js/main.f200a0a0.js"
+  ]
+}
