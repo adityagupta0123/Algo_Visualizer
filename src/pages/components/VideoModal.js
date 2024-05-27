@@ -6,7 +6,7 @@ function VideoModal({ isVisible, setVisible, videoUrl }) {
 	return (
 		<Modal
 			title="Demo"
-			visible={isVisible}
+			open={isVisible}
 			onCancel={() => {
 				setVisible(false);
 			}}
