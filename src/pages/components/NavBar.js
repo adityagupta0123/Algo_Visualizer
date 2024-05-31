@@ -14,13 +14,17 @@ function NavBar() {
 
 				<NavLink to="/quicksort">Quick Sort</NavLink>
 
+				<Link to="/mergesort">Merge Sort</Link>
+
 				<NavLink to="/singlylinklist">Singly Linked List</NavLink>
 
 				<NavLink to="/dfs">DFS</NavLink>
 
-				<Link to="/dijkstra">Dijkstra Algo</Link>
+				<Link to="/dijkstra">Dijkstra</Link>
 			</div>
 		</nav>
+
+		
 	);
 }
 

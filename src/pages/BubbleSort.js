@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Bar from "./components/Bar";
-import { Slider, notification, Typography } from "antd";
+import { message, Slider, notification, Typography } from "antd";
 import { WarningOutlined } from "@ant-design/icons";
 import "antd/dist/antd.css";
 import Hr from "./components/Hr";
@@ -13,7 +13,7 @@ import ShuffleIcon from "@material-ui/icons/Shuffle";
 const useStyles = makeStyles({
 	CanvasContainer: {
 		width: "100%",
-		height: "81vh",
+		height: "78vh",
 		display: "flex",
 		flexDirection: "column",
 	},
@@ -45,7 +45,7 @@ const useStyles = makeStyles({
 
 	singleSliderContainer: {
 		border: ".3px solid #ccc",
-		background: "#fff",
+		background: "#fafafa",
 		width: "40%",
 		padding: "7px",
 		borderRadius: "2px",
@@ -111,6 +111,22 @@ const BubbleSort = () => {
 
 	const handleClick = async () => {
 		if (arr.length !== 0) {
+
+			//message start
+			let key = "awqqk@bman";
+
+			message.warning({
+				content: "Bubble Sort is Running ! Don't click any Button",
+				key,
+				duration: 0,
+				style: {
+					marginTop: "20vh",
+					fontWeight: "500",
+				},
+			});
+
+			// algorithm
+
 			for (let round = 0; round < arr.length - 1; round++) {
 				for (let element = 0; element < arr.length - 1 - round; element++) {
 					await sleep(time);
@@ -136,6 +152,17 @@ const BubbleSort = () => {
 			for (let i = 0; i < arr.length; i++) {
 				arr[i].color = "#23ff00";
 			}
+
+			//message end
+			message.destroy(key);
+
+			message.success({
+				content: "Bubble Sort Completed",
+				duration: 2,
+				style: {
+					marginTop: "20vh",
+				},
+			});
 
 			setAlreadySorted(true);
 

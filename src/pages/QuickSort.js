@@ -13,7 +13,7 @@ import quickFun from "./components/utils/algorithms/quickSortFun";
 const useStyles = makeStyles({
 	CanvasContainer: {
 		width: "100%",
-		height: "81vh",
+		height: "78vh",
 		display: "flex",
 		flexDirection: "column",
 	},
@@ -124,7 +124,7 @@ const QuickSort = () => {
 
 			message.success({
 				content: "Quick Sort Completed",
-				duration: 3,
+				duration: 2,
 				style: {
 					marginTop: "20vh",
 				},
@@ -223,7 +223,7 @@ const QuickSort = () => {
 				<div className={Controller}>
 					<div className={sliderContainer}>
 						<div className={singleSliderContainer}>
-							<Typography style={typoGraphyStyle}>Value</Typography>
+							<Typography style={typoGraphyStyle} >Value</Typography>
 							<Slider disabled={disable} step={1} onChange={handleChange} />
 						</div>
 						<div className={singleSliderContainer}>

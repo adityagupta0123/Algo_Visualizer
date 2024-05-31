@@ -29,6 +29,7 @@ import NavBar from "./pages/components/NavBar";
 import HomePage from "./pages/Home";
 import BubbleSortPage from "./pages/BubbleSort";
 import QuickSortPage from "./pages/QuickSort";
+import MergeSortPage from "./pages/MergeSort";
 import SinglyLinkList from "./pages/SinglyLinkLIst";
 import Dijkstra from "./pages/Dijkstra";
 import Dfs from "./pages/Dfs";
@@ -43,6 +44,7 @@ function App() {
 					<Route path="/" exact component={HomePage} />
 					<Route path="/bubblesort" exact component={BubbleSortPage} />
 					<Route path="/quicksort" exact component={QuickSortPage} />
+					<Route path="/mergesort" exact component={MergeSortPage} />
 					<Route path="/singlylinklist" exact component={SinglyLinkList} />
 					<Route path="/dfs" exact component={Dfs} />
 					<Route path="/dijkstra" exact component={Dijkstra} />
